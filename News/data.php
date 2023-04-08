@@ -19,7 +19,7 @@
          qo‘l ostida Osiyo kubogi U23 g‘olibiga aylangandi. Bugungi g‘alaba Haydarovga oltin dubl, O‘zbekistonga esa 
          treblni keltirdi. Bungacha Osiyoda faqatgina 4 jamoa – Janubiy Koreya, Yaponiya, Saudiya Arabistoni va Iroq 
          bunday natijaga erisha olgandi.",
-         'status'=>false,
+         'status'=>true,
          'date'=>'2023-yil 18-mart'
      ],
      [
