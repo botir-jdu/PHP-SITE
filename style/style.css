@@ -1,0 +1,60 @@
+*{
+    font-family: "Franklin Gothic Book", serif;
+}
+
+/*Menubar*/
+nav{
+    background: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-toggle{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin: 0 10px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and(max-width: 768px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background: #333333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .menu li{
+        margin: 10px 0;
+    }
+    .menu-toggle i:before{
+        content: '\f0c9';
+    }
+    .menu-toggle.active .fas:before{
+        content: '\f00d';
+    }
+    .menu-toggle.active + .menu{
+        display: flex;
+    }
+
+}

@@ -15,7 +15,7 @@
         <i class="fa-solid fa-bars"></i>
     </div>
     <ul class="menu">
-        <li><a href="">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li><a href="">For you</a></li>
         <li><a href="">Following</a></li>
         <li><a href="">About</a></li>
